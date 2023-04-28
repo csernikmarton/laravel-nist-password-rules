@@ -2,7 +2,7 @@
 
 namespace LangleyFoxall\LaravelNISTPasswordRules;
 
-use LangleyFoxall\LaravelNISTPasswordRules\Rules\BreachedPasswords;
+// use LangleyFoxall\LaravelNISTPasswordRules\Rules\BreachedPasswords;
 use LangleyFoxall\LaravelNISTPasswordRules\Rules\ContextSpecificWords;
 use LangleyFoxall\LaravelNISTPasswordRules\Rules\DerivativesOfContextSpecificWords;
 use LangleyFoxall\LaravelNISTPasswordRules\Rules\DictionaryWords;
@@ -29,7 +29,7 @@ abstract class PasswordRules
             new DictionaryWords(),
             new ContextSpecificWords($username),
             new DerivativesOfContextSpecificWords($username),
-            new BreachedPasswords(),
+            // new BreachedPasswords(),
         ]);
     }
 
