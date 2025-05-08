@@ -9,12 +9,6 @@
             "email": "jordan@langleyfoxall.co.uk"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/csernikmarton/laravel-password-exposed-validation-rule.git"
-        }
-    ],
     "require": {
         "php": ">=7.2",
         "laravel/framework": "^5.5||^6.0||^7.0||^8.0||^9.0||^10.0||^11.0||^12.0",
@@ -45,10 +39,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/langleyfoxall/laravel-password-exposed-validation-rule",
+            "url": "https://github.com/csernikmarton/laravel-password-exposed-validation-rule.git",
             "no-api": true
         }
     ]
-        
-    
 }
